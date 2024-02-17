@@ -1,0 +1,6 @@
+catalog_service/node_modules
+catalog_service/dist
+.DS_Store
+coverage
+order_service/node_modules
+order_service/dist
