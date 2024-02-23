@@ -1,7 +1,7 @@
 import { ICatalogRepository } from "../../interface/catalogRepository.interface";
 import { MockCatalogRepository } from "../../repository/mockCatalog.repository";
 import { CatalogService } from "../catalog.service";
-// import { faker } from "@faker-js/faker";
+import { faker } from "@faker-js/faker";
 
 const mockProduct = (rest: any) => {
     return {

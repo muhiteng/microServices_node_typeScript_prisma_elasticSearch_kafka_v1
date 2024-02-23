@@ -1,0 +1,36 @@
+// create two folders
+mkdir catalog_service
+mkdir order_service
+// work on catalog_service
+cd catalog_service
+npm init -y
+npm i express
+npm i @types/express --dev
+npm i nodemon -D
+npm i typescript ts-node
+npm i @types/node --save-dev
+// set up test
+npm i jest ts-jest @types/jest -D
+ npm install -g jest
+ npm i @faker-js/faker --dev
+ npm i rosie @types/rosie -D
+ npm i class-transformer class-validator
+ 
+==========================
+npm i supertest @types/supertest -D
+jest --init
+npm install -g typescript
+tsc --init
+// to compile type srript 
+tsc -p .
+// work on order_service
+cd ..
+cd order_service
+npm init -y
+//prisma
+npm i prisma -D
+npx prisma init --datasource-provider postgresql
+npx prisma migrate dev --name init
+//==================== db
+cd db
+docker-compose up -d

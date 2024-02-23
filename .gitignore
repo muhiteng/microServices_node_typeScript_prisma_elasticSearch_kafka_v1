@@ -1,6 +1,8 @@
 catalog_service/node_modules
 catalog_service/dist
+catalog_service/coverage
 .DS_Store
 coverage
 order_service/node_modules
 order_service/dist
+db/db-data
